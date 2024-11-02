@@ -24,4 +24,3 @@ resource "azurerm_resource_group" "rg" {
     source      = "terraform"
   }
 }
-e
