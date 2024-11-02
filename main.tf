@@ -1,0 +1,25 @@
+# Azure Provider source and version
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "~> 3.0.2"
+    }
+  }
+
+  required_version = ">= 1.1.0"
+}
+# Configure the Microsoft Azure Provider
+provider "azurerm" {
+  features {}
+}
+
+# Create resource group 
+resource "azurerm_resource_group" "rg" {
+  name     = "Terraform-rg-testt"
+  location = "West Europe"
+  tags = {
+    environment = "dev"
+    source      = "terraform"
+  }
+}
