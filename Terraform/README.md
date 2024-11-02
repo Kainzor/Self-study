@@ -8,6 +8,8 @@ Today I've come across some minor problems with terraform that I didn't understa
 
 But today I was working on creating virtual network with subnet and a security group with rules that comes with it. There's no set and stone what I wanted to edit into the security group since I am not really working on a VM or a company's environment but I think it's a great achievement to have accomplished this for todays work. I did find out some minor typo's but with the help of terraforms documentation I was able to solve the problem. Can't wait to find something more to try out!
 
+I've also learned new commands with powershell while I've been working on this project which have helped me out. Switching terraform into tf via alias was a life saver!
+
 <h3>#1 First time!</h3>
 Technically I used up 2 days not gonna lie because there was a lot to learn on the first day learning terraform. I've got used to the commands and I've also learned a bit more regarding github.
 
