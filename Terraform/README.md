@@ -1,2 +1,4 @@
 <h1>Welcome to my Terraform directory!</h1>
-Everything you see here and has been added to github is my self study project that I have done/finished my self. If you have any questions about anything feel free to send me a pm.
+This is my Terraform self-study repository!
+
+Everything you find in here is a test project that I have been learning by my self and have finished with. There's more to come and many things to test out!
