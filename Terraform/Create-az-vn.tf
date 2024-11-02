@@ -9,6 +9,7 @@ terraform {
 
   required_version = ">= 1.1.0"
 }
+
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
@@ -25,12 +26,12 @@ resource "azurerm_resource_group" "kaintest-rg" {
 }
 
 resource "azurerm_virtual_network" "test-vn" {
-    name = "Kain-terraform-vn"
-    resource_group_name = azurerm_resource_group.kaintest-rg.name
-    location = azurerm_resource_group.kaintest-rg.location
-    address_space = ["10.123.1.1/16"]
+  name                = "Kain-terraform-vn"
+  resource_group_name = azurerm_resource_group.kaintest-rg.name
+  location            = azurerm_resource_group.kaintest-rg.location
+  address_space       = ["10.123.0.0/16"]
 
-    tags = {
-      environment = "dev"
-    }
+  tags = {
+    environment = "dev"
+  }
 }
