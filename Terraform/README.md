@@ -1,1 +1,2 @@
-test
+<h1>Welcome to my Terraform directory!</h1>
+Everything you see here and has been added to github is my self study project that I have done/finished my self. If you have any questions about anything feel free to send me a pm.
