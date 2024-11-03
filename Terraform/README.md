@@ -5,7 +5,7 @@ Everything you find in here is what I have been learning by my self, you can see
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
 <h3>#3 Entra!</h3>
-Today I started learning how to use terraform related to Entra ID, I managed to create users and groups and learn how to assign roles individually or add a role on a group. Things are working well it got a little bit complicated when it came to creating bulk users by using JSON file, I knew very little of JSON but doesn't look complicated, but for this practice I did take  advantage of using Copilot to help me out in creating a randomized JSON file with random names, I think it was a good practice. I only needed to specificy what fields was neccesary and then output it as a JSON file.
+Today I started learning how to use terraform related to Entra ID, I managed to create users and groups and learn how to assign roles individually or add a role on a group. Things are working well it got a little bit complicated when it came to creating bulk users by using JSON file, I knew very little of JSON but doesn't look complicated, but for this practice I did take  advantage of using Copilot to help me out in creating a randomized JSON file with random names to use for creating bulk user project, I think it was a good practice. I only needed to specificy what fields was neccesary and then output it as a JSON file.
 
 
 
