@@ -1,6 +1,7 @@
 <h1>Welcome to my Terraform self-study repository!</h1>
 
-Everything you find in here is a test project that I have been learning by my self and have finished with. There's more to come and many things to test out!
+Everything you find in here is what I have been learning by my self, you can see all my finished projects inside "*Finished projects*" folder. There's more to come and many things to test out!
+
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
 <h3>#3 Entra!</h3>
