@@ -1,0 +1,49 @@
+# Admin users
+
+locals {
+  admin_users = { for user in var.admin_users : user => user }
+}
+
+data "azuread_user" "admin"{
+  for_each = local.admin_users
+  user_principal_name = each.key
+}
+
+resource "azuread_group" "admin" {
+  display_name     = "Admin group"
+  owners           = [data.azuread_client_config.current.object_id]
+  security_enabled = true
+}
+
+resource "azuread_group_member" "admin" {
+  for_each = local.admin_users
+  group_object_id  = azuread_group.admin.id
+  member_object_id = data.azuread_user.admin[each.key].object_id
+}
+
+
+
+# Reader users
+
+locals {
+  reader_users = { for user in var.reader_users : user => user }
+}
+
+data "azuread_user" "reader"{
+  for_each = local.reader_users
+  user_principal_name = each.key
+}
+
+resource "azuread_group" "reader" {
+  display_name     = "reader group"
+  owners           = [data.azuread_client_config.current.object_id]
+  security_enabled = true
+
+}
+
+resource "azuread_group_member" "reader" {
+  for_each = local.reader_users
+  group_object_id  = azuread_group.reader.id
+  member_object_id = data.azuread_user.reader[each.key].object_id
+
+}
