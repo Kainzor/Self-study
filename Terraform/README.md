@@ -6,7 +6,7 @@ I will also be updating this readme file everytime I try out something and make 
 
 
 <h3>#5 No projects today</h3>
-There has been a lot of IRL things to do today so I planned on taking it easy, today I went over some study videos that I looked up online and learned a bit more about resources, data and locals usage, I also learned a little bit how Dynamic blocks work.
+There has been a lot of IRL things to do today so I planned on taking it easy, today I went over some study videos that I looked up online and learned a bit more about resources, data and locals usage syntax, I also learned a little bit how Dynamic blocks work and how to use them.
 
 
 <h3>#4 Entra groups</h3>
