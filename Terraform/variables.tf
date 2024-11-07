@@ -4,3 +4,7 @@ variable "admin_users" {
 variable "reader_users" {
   type = list(string)
 }
+
+variable "location" {
+  type = "West Europe"
+}

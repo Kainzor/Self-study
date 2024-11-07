@@ -4,6 +4,11 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
+
+<h3>#5 No projects today</h3>
+There has been a lot of IRL things to do today so I planned on taking it easy, today I went over some study videos that I looked up online and learned a bit more about resources, data and locals usage, I also learned a little bit how Dynamic blocks work.
+
+
 <h3>#4 Entra groups</h3>
 I started off by making security groups and adding members through variables. I created a file called variable.tf and created a variable that picks up strings in the terraform.tfvars file. It picks up every object ID mentioned and adds them to their assigned groups and used count for each user. I might keep the variable files here for any future projects. 
 
