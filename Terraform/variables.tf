@@ -6,5 +6,10 @@ variable "reader_users" {
 }
 
 variable "location" {
-  type = "West Europe"
+  type = string
+}
+
+variable "owner_username" {
+  type = string
+
 }
