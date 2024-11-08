@@ -4,7 +4,7 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
-<h3>#6 App reg & secret</h3>
+<h3>#6 Application registry & customer secret</h3>
 Today I made a app registration & a customer secret for the app registration, I tried to make it with service principals as well but it didn't work out well because I kept getting timed out when I was creating the resource. I tried to see what the difference between app reg and service principals was and it turns out it was a quite confusing topic. I didn't want to deep dive too much into this so I am keeping it on the side for now. But a successful work on the app registration project!
 
 
