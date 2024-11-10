@@ -42,4 +42,4 @@ I've also learned new commands with powershell while I've been working on this p
 <h3>#1 First day</h3>
 Technically I used up 2 days not gonna lie because there was a lot to learn on the first day learning terraform. I've got used to the commands and I've also learned a bit more regarding github.
 
-Today I learned how to create a resource group through terraform and it's amazing! I've not tried ARM yet with azure but I really enjoy playing around with terraform and I will keep on learning further on next day.
+Today I learned how to create a resource group through terraform and it's amazing! I've not tried ARM yet with azure but I really enjoy playing around with terraform and I will keep on learning further on next day
