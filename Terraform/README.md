@@ -4,6 +4,12 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
+<h3>#7 Terraform Association exam!</h3>
+I've been thinking and I have made up my mind that I want to start studying for the Terraform Associates exam. I've come to a point where I feel like I can't learn more unless getting a real hands-on experience so I think this would be a good time to start learning for the exam. I've learned quite a lot in a short period of time doing all my previous projects and I've come to a understanding how some syntaxes work and how to create stuff like groups, users, app reg, subscriptions and so on. The documentations on the website is really good and it's enough for me to understand how things work. 
+
+I think this is a correct step to move forward and I hope that I even learn something new while I study for the exam. Depending how difficult the exam is I am going to give my self 1-2 weeks to study before I take it. I will keep on updating this section if there is anything new or special that I've learned while I am studying. Wish me good luck!
+
+
 <h3>#6 Application registry & customer secret</h3>
 Today I made a app registration & a customer secret for the app registration, I tried to make it with service principals as well but it didn't work out well because I kept getting timed out when I was creating the resource. I tried to see what the difference between app reg and service principals was and it turns out it was a quite confusing topic. I didn't want to deep dive too much into this so I am keeping it on the side for now. But a successful work on the app registration project!
 
