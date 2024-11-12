@@ -4,6 +4,14 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
+<h3>#8 Quick update</h3>
+I've been diving a bit into my study and getting my self ready for the exam, from all the documentation and videos I've gone through I gotta say that I've learned so many new things! There were so many type of expressions that I didn't quite understand when I got a glimpse of it during my projects, but after watching videos and going deeper into documentation about it made me understand much better! it may be hard to remember what the symbols mean like ">>=" and such for the expressions but that's what you'd express when you're not working on these type of things all the time. But I've learned a lot how to use some expressions for some scenarios, for example "for" for mappings like...
+example:
+{for k,v in var_map : lower(k)} will output output every "key" defined in the map inlowercase, you can also show the value as a map by doing {for k,v in var_map : lower(k) => upper(v)} that will show the key's name with their values in a uppercase.
+
+I did go through some practice exams that I found online and I felt like I did really well, hitting at least 80% correct, but I feel like there's still a lot more that I haven't gone through yet and I want to make sure that I do get this exam on my first try!
+
+
 <h3>#7 Terraform Association exam!</h3>
 I've been thinking and I have made up my mind that I want to start studying for the Terraform Associates exam. I've come to a point where I feel like I can't learn more unless getting a real hands-on experience so I think this would be a good time to start learning for the exam. I've learned quite a lot in a short period of time doing all my previous projects and I've come to a understanding how some syntaxes work and how to create stuff like groups, users, app reg, subscriptions and so on. The documentations on the website is really good and it's enough for me to understand how things work. 
 
@@ -42,4 +50,4 @@ I've also learned new commands with powershell while I've been working on this p
 <h3>#1 First day</h3>
 Technically I used up 2 days not gonna lie because there was a lot to learn on the first day learning terraform. I've got used to the commands and I've also learned a bit more regarding github.
 
-Today I learned how to create a resource group through terraform and it's amazing! I've not tried ARM yet with azure but I really enjoy playing around with terraform and I will keep on learning further on next day
+Today I learned how to create a resource group through terraform and it's amazing! I've not tried ARM yet with azure but I really enjoy playing around with terraform and I will keep on learning further on next day.
