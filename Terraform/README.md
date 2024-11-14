@@ -4,8 +4,13 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
+<h3>#9 Quick update</h3>
+It's now been a week since I started my study for the exam I've learned A LOT! I've gone through quite a lot of topics since last update like... how backend works, functions, workspaces, troubleshooting, difference between terraform local vs terraform cloud, difference between Terraform cloud vs Terraform Enterprise and more that I can't think of exactly right now. 
+
+I've now set a date for my exam a week from now, I hope I will get it. I've read through comments that it's on a medium difficulty so it's not hard. Right now I am studying and trying to understand how Sentinel, Packer and Vault works with Terraform. After that I will have few days to revise everything that I've learned so far and be ready for the exam!
+
 <h3>#8 Quick update</h3>
-I've been diving a bit into my study and getting my self ready for the exam, from all the documentation and videos I've gone through I gotta say that I've learned so many new things! There were so many type of expressions that I didn't quite understand when I got a glimpse of it during my projects, but after watching videos and going deeper into documentation about it made me understand much better! it may be hard to remember what the symbols mean like ">>=" and such for the expressions but that's what you'd express when you're not working on these type of things all the time. But I've learned a lot how to use some expressions for some scenarios, for example "for" for mappings like...
+I've been diving a bit into my study and getting my self ready for the exam, from all the documentation and videos I've gone through I gotta say that I've learned so many new things! There were so many type of expressions that I didn't quite understand when I got a glimpse of it during my projects, but after watching videos and going deeper into documentation about it made me understand much better! it may be hard to remember what the symbols mean like ">>=" and such for the expressions but that's what you'd expect when you're not actively working on these type of things all the time. But I've learned a lot how to use some expressions for some scenarios, for example "for" for mappings like...
 example:
 {for k,v in var_map : lower(k)} will output output every "key" defined in the map inlowercase, you can also show the value as a map by doing {for k,v in var_map : lower(k) => upper(v)} that will show the key's name with their values in a uppercase.
 
