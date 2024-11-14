@@ -5,7 +5,7 @@ Everything you find in here is what I have been learning by my self, you can see
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
 <h3>#9 Quick update</h3>
-It's now been a week since I started my study for the exam I've learned A LOT! I've gone through quite a lot of topics since last update like... how backend works, functions, workspaces, troubleshooting, difference between terraform local vs terraform cloud, difference between Terraform cloud vs Terraform Enterprise and more that I can't think of exactly right now. 
+It's now been a week since I started my study for the exam and I've learned a lot of new things. I've gone through quite a lot of sections since the last update like... how backend works, functions, workspaces, troubleshooting, difference between terraform local vs terraform cloud, difference between Terraform cloud vs Terraform Enterprise and more that I can't think of exactly right now. 
 
 I've now set a date for my exam a week from now, I hope I will get it. I've read through comments that it's on a medium difficulty so it's not hard. Right now I am studying and trying to understand how Sentinel, Packer and Vault works with Terraform. After that I will have few days to revise everything that I've learned so far and be ready for the exam!
 
