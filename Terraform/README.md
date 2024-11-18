@@ -4,6 +4,10 @@ Everything you find in here is what I have been learning by my self, you can see
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
 
+<h3>#10 Another quick update</h3>
+Exam is drawing in closer. I've been studying a lot for the past few weeks and I have a good feeling that I will make it!
+For the past few days I've been gaining more understanding on how commands flow works. I've also been getting into more security related stuff like sensitive variables/credentials/secrets and understanding where and how you can store them safely. Also I've been learning the pros/cons on Terraform Enterprise vs Terraform cloud, but Terraform Enterprise is what I am going to be focusing on for now. I haven't really gotten into much testing at the moment, there are things that I would like to try out but it's being limited through Terraforms subscriptions which I will not be getting. But one thing I am proud of is that I have gained complete understanding on how to read codes from HCL and I am sure that I am confident that I could write up my own. So that being said, everything is going great! Can't wait to share the next update!
+
 <h3>#9 Quick update</h3>
 It's now been a week since I started my study for the exam and I've learned a lot of new things. I've gone through quite a lot of sections since the last update like... how backend works, functions, workspaces, troubleshooting, difference between terraform local vs terraform cloud, difference between Terraform cloud vs Terraform Enterprise and more that I can't think of exactly right now. 
 
