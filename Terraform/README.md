@@ -7,9 +7,9 @@ I will also be updating this readme file everytime I try out something and make 
 <h3>#11 :tada::tada::tada: Terraform Associate (003) Obtained  :tada: :tada: :tada: </h3>
 I did it! I didn't expect it to go this smoothly and I think I might have overworked my self with this. The questions were relatively easy since it was mostly a basic/fundemental working on Terraform and compared to what I've been studying I think I went a bit too far, but I am not complaining. 
 After studying very thoroughly throughout this exam I have learned more than it was needed for the exam, which means I have now more knowledge beyond the fundemental part that I hope I will one day make good use of :relaxed: 
-<br/>
+<br/><br/>
 I think now I will take a small break on the Terraform study and try to find what I want to self-study next, but from now on I think I will continue using Terraform. I like HCL, I am not very used to JSON or ARM yet but I think if I will keep learning terraform I might learn them both on the way.
-<br/>
+<br/><br/>
 So for now, I am going to stop updating here unless it's terraform related. If you were able to make it by reading through all this text then thank you and godspeed!
 
 <h3>#10 Another quick update</h3>
