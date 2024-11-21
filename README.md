@@ -1,2 +1,2 @@
-<h1># Welcome to my Terraform study repository</h1>
-Here you can find all the info about my progress what I have tried out in terraform. It may not be professionally orginized because I am only using this for self study purposes.
+<h1># Welcome to my self-study repository</h1>
+Here you can find all my self-study update and progress related to anything that I've been working on. I've only recently started this github so not everything is professionally organized.
