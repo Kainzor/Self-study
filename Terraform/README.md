@@ -3,7 +3,7 @@
 Everything you find in here is what I have been learning by my self, you can see all my finished projects inside "<b>Finished projects</b>" folder. There's more to come and many things to test out!
 
 I will also be updating this readme file everytime I try out something and make a small document about my "todays" work and so on.
-
+<br/><br/><br/>
 <h3>#11 :tada::tada::tada: Terraform Associate (003) Obtained  :tada: :tada: :tada: </h3>
 I did it! I didn't expect it to go this smoothly and I think I might have overworked my self with this. The questions were relatively easy since it was mostly a basic/fundamental working on Terraform and compared to what I've been studying I think I went a bit too far, but I am not complaining. 
 After studying very thoroughly throughout this exam I have learned more than it was needed for the exam, which means I have now more knowledge beyond the fundamental part that I hope I will one day make good use of :relaxed: 
