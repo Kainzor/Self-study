@@ -6,7 +6,7 @@
      - (A) is for IPv4 addresses
      - (AAAA) is for IPv6 addresses 
 
- - DNS Canonical name records (CNAME)
+ <h2>DNS Canonical name records (CNAME)</h2>
  
  A name is a ALIAS of another canonical name. For example, a single server that have multiple services.
 
