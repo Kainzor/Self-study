@@ -4,5 +4,9 @@ Everything you find in here is what I have been learning regarding A+, I will be
 
 I will try to keep this up to date as much as I can.
 
+<h2>Sub sections</h2>
+
 [Notes](https://github.com/Kainzor/Self-study/tree/main/A%2B/Notes)
+
+
 [Projects](https://github.com/Kainzor/Self-study/tree/main/A%2B/Projects)
