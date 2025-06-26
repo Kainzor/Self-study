@@ -6,7 +6,7 @@ I will try to keep this up to date as much as I can.
 
 <h2>Subsections</h2>
 
-[Notes](https://github.com/Kainzor/Self-study/tree/main/A%2B/Notes)
+📝 [Notes](https://github.com/Kainzor/Self-study/tree/main/A%2B/Notes)
 
 
-[Projects](https://github.com/Kainzor/Self-study/tree/main/A%2B/Projects)
+🖥️ [Projects](https://github.com/Kainzor/Self-study/tree/main/A%2B/Projects)
