@@ -66,6 +66,11 @@
 
 <h2>Network Devices</h2>
 
+ <h2>Taps and port mirrors</h2>
+ 
+  - Intercepts network traffic
+  - Can copy packets with the connected device both inbound and outbout packets
+
  <h2>Firewalls</h2>
  
  Filters traffic by port number.
