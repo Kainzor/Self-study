@@ -6,12 +6,14 @@ Currently the source where I am going over to revise everything is on linuxjourn
  <h2>Commands</h2>
  
  - $ pwd = print out current directory
+
  - $ cd = change directory
      Extra commands
      - $ cd . = Current directory
      - $ cd .. = Takes you one directory backwards
      - $ cd ~ = Takes you to home directory such as /home/username
      - $ cd - = Takes you back to your previous directory  
+
  - $ ls = list directories and files in your current directory
      Extra commands
       - $ ls /home/username = You can look up directories and file by specifying the directories source
@@ -22,8 +24,11 @@ Currently the source where I am going over to revise everything is on linuxjourn
       - $ ls -r = reverse order while sorting
       - $ ls -t = sort by modification time, newest first
  - $ touch = Create a file
+
  - $ file = Shows the description of the file's content
+
  - $ cat = displays file contents, but you can combine multiple files and show you the output of them.
+
  - $ less = cat displays file content if it's a small text, but if it's a larger text file then using less is better since you can navigate.
     - q = Used to quit out of less and go back to your shell.
     - Page up, Page down, Up and Down - Navigate using the arrow keys and page keys.
@@ -32,18 +37,23 @@ Currently the source where I am going over to revise everything is on linuxjourn
     - /search = You can search for specific text inside the text document. Prefacing the words you want to search with /
     - h = If you need a little help about how to use less while you’re in less, use help.
  - $ history = shows you a history list that you previously entered
+
  - $ clear = clears the terminal so it looks fresh
+
  - $ cp = Copy a file, add location on second line to paste it to the directory
     - $ cp -r = copies all files and directory within the directory
     - $ cp -i = If you're copying a file with the same name to a directory, the file will normally be overwritten. If you don't want it to be overwritten then you use cp -i
+
  - $ mv = used for moving files and also renaming them
     - $ mv oldfile newfile = renames file from oldfile > newfile (can also apply with directories)
     - $ mv file2 /home/username/documents = move a file to a different directory
     - $ mv file_1 file_2 /somedirectory = move multiple files
     - $ mv -i = same as with cp, if you move the file and the directory already have a existing name, this prevents you from overwriting it.
     - $ mv -b = if you wanted to overwrite the previous file/directory, you can add -b to make a backup of the file and it will rename the old version with a ~
+
  - $ mkdir = create a directory if it doesn't already exist, you can make multiple directories at the same time by adding another name in the next line.
     - $ mkdir -p = you can also create subdirectories at the same time with the -p
+
  - $ rm = remove
     - Extra Commands
         - $ rm = removes file normally, there's no warning you get so when its gone its gone
@@ -51,10 +61,14 @@ Currently the source where I am going over to revise everything is on linuxjourn
         - $ rm -i = will give you a prompt before removing them
         - $ rm -r directory = removes directory and everything in it
         - $ rmdir = to remove directory
+
  - $ find = search files on the system, example...
     - $ find /home -name cat.jpg = searches the name cat.jpg in /home directory
+
  - $ help = built-in tool to help with commands and show what commands are available
+ 
  - $ man = manual of commands
+
  - $ whatis 'command' = insert a command name and it will give you a information what it does
  
  VERY HANDY
