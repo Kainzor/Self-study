@@ -101,6 +101,7 @@
  
  - Windows
      - $ NSlookup = Shows query of DNS
+            - -type=txt  = Shows txt query 
 
  - Linux
      - $ Dig = Shows query of DNS 
