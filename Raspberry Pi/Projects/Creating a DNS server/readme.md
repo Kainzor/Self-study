@@ -2,16 +2,17 @@
 
 <h2>1. Getting git and cloudflare API</h2>
 
-1. First off I need to get git by typing in the command:
+ 1. First off I need to get git by typing in the command:
  ```bash
  apt update && apt install git -y
  ```
-2. Afterwards I want to get cloudflare updater:
+ 2. Afterwards I want to get cloudflare updater:
  ```bash
  git clone "githubURL"
  ```
-3. Then when I got the sh template I created a copy of the SH just to have as a backup.
-![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/dns-1.png)
+ 3. Then when I got the sh template I created a copy of the SH just to have as a backup.
+
+ ![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/dns-1.png)
 
 <h2>2. Getting DNS, settings up cloudflare and nano</h2>
 
@@ -29,31 +30,30 @@
  ```
  After that, we run the script and see if it works...
  Success!
-![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/dns-3.png)
 
-Was also successfully connected API to cloudflare, I created a address type and it has updated the IP address. But I'm not gona show that in here.
+ ![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/dns-3.png)
+
+ Was also successfully connected API to cloudflare, I created a address type and it has updated the IP address. But I'm not gona show that in here.
 
 <h2>Automatic update on DNS server</h2>
  So now that we have successfully set everything up there's only one thing left, ISP are usually often changing IP addresses so incase that it doesn't break the API connection we have to create a automatic update by using crontab.
 
-We start up first by getting crontab, what it does essentially allows you to automate the execution of commands at specific times. Which is what we need for our IP update.
+ We start up first by getting crontab, what it does essentially allows you to automate the execution of commands at specific times. Which is what we need for our IP update.
 
  ```bash
  Crontab -e
  ```
  And then we open it with nano
+
  ![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/crontab.png)
 
-Afterwards we enter in the time when we want run the script.
+ Afterwards we enter in the time when we want run the script.
   ```bash
  */1 * * * * * /bin/bash /root/nameofscript
  ```
-Note: The star signs define the time, so first star is a minute and goes on from minute > hour > Day of month > Month > Day of the week
+ Note: The star signs define the time, so first star is a minute and goes on from minute > hour > Day of month > Month > Day of the week
         The /bin/bash means what to execute with and next is the location of the script
+
  ![Image](/Raspberry%20Pi/Projects/Creating%20a%20DNS%20server/Pictures/dns-4.png)
 
 
-<h2></h2>
-<h2></h2>
-<h2></h2>
-<h2></h2>
