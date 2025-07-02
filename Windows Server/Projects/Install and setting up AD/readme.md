@@ -18,6 +18,7 @@
 
 <h2>Create a DNS IP address</h2>
      Now I need to make somekind of a connection so that my other VM's can connect to the DC, I was planning on creating a seperate DHCP server later in the future so for now I am just gona use a DNS IP address on the DC 
+          
           By going: right click network icon at task bar > Network & sharing settings > Change adapter settings > Properies on IPv4 > change the DNS IP address. 
 
 ![image](/Windows%20Server/Projects/Install%20and%20setting%20up%20AD/Pictures/ws4.png)
