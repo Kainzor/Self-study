@@ -33,7 +33,7 @@ Here we are gona explain the 10base and 100base on how they both work by using 2
 Here below we have a picture on how straight-through cable works.
 (Router on left and switch on the right)
 
-![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic2.png)
+![img2](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic2.png)
 
 
  - Switch:
@@ -50,14 +50,14 @@ But what if we connect a PC to PC or a router to router? Switch to a switch? or 
 
 It's not going to work, both the transmit wires will collide together with a straight-through cable and none of them won't be able to recieve data.
 
-![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic3.png)
+![img3](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic3.png)
 
 The solution to this so that they can speak to each other we have to change the straight-through cable to a crossover cable.
 
 Crossover cable is used so that the same type of devices can recieve and transmit data to each other.
 What you do is that you change the wires to the opposite position. Like so in the picture below.
 
-![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic4.png)
+![img4](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic4.png)
 
 Now you can send data to each other.
 
@@ -65,7 +65,7 @@ Have to keep in mind that a router and pc use the same wire position, so in orde
 
 Here's a picture for devices and what pins they use.
 
-![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic5.png)
+![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic5.png)
 
 
 
