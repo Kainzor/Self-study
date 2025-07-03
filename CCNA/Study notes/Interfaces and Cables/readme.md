@@ -67,17 +67,24 @@ Here's a picture for devices and what pins they use.
 
 ![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic5.png)
 
+But now in our new age we technically don't need to thing about all this anymore since it's a bit out of date, we have now a new technology that solves the problem between crossover and straight-through cables, and it's called Auto MDI-X
 
+What Auto MDI-X does is that it automatically detects on what the transmitted data is coming from and where it needs to be recieved, so it basically automatically changes the data to the correct location even if you have a straight-through cable connected to a same device like switch to switch or a router to router. It simply takes care of the whole problem.
 
+![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic6.png)
 
+<h2>UTP Cables (1000BASE-T, 10GBASE-T)</h2>
 
+In the higher speed cables we use all the 8 wires and they are all bidirection which means that we don't have to think about which is the transmit and recieve end.
 
+![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic7.png)
 
+<h2>Fiber-Optic Connections</h2>
 
+On a Fibre-Optic Cable, there are 2 connections. 1 is the transmit and 1 is the recieve, like so in this picture.
 
+![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic8.png)
 
-
-<h2></h2>
 
 <h2></h2>
 
