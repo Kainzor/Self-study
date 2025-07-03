@@ -85,6 +85,33 @@ On a Fibre-Optic Cable, there are 2 connections. 1 is the transmit and 1 is the 
 
 ![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic8.png)
 
+In a Fiber-optic cable there are 4 physical layers
+1. Fiberglass core, where it transmits and recieves the data from
+2. Cladding that reflects the light to make it stronger
+3. Protective buffer which protects the glass from breaking 
+4. The outer jacket of the cable.
+
+![img5](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic9.png)
+
+There are 2 types of fibre cables
+1. Multimode fiber
+ - Core is wider than single-mode fiber
+ - Allows multiple angles (modes) of light waves to enter fiberglass core
+ - Allows longer cables than UTP, but shorter than single-mode fiber.
+ - Cheaper than Single-mode  fiber (because of cheaper LED-based SFP transmitters)
+2. Single-mode Fiber
+ - Core diameter is narrower than Multimode
+ - Light enters at a single angle from a laser based transmitter
+ - Allows longer cables, longer than both UTP and Multimode
+ - More expensive because of more expensive laser based SFP transmitters
+
+ Here is a chart on Fiber standards:
+
+![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic10.png)
+
+
+
+
 
 <h2></h2>
 
