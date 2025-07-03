@@ -33,7 +33,7 @@ Here we are gona explain the 10base and 100base on how they both work by using 2
 Here below we have a picture on how straight-through cable works.
 (Router on left and switch on the right)
 
-![img2](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic2.png)
+![img2](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic2.png)
 
 
  - Switch:
