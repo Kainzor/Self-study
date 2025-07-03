@@ -10,9 +10,9 @@
 
  Here is a standard picture regarding the copper version.
 
- ![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic1.png)
+![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/Pic1.png)
 
- Informal name
-    Base = refers to baseband signaling
-    T = Twisted pair
+Informal name:
+ - Base = refers to baseband signaling
+ - T = Twisted pair
 
