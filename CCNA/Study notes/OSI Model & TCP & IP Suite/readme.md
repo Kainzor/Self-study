@@ -58,3 +58,15 @@
  Defines physical characteristics of the medium used to transfer data between devices, for example:
   - Voltage levels, maximum transmission distances, physical connectors, cable specifications, etcþ
   - Digital bits are converted into electrical (Wired connections) or radio (For wireless connections)
+
+<h1>OSI Model - PDUs</h1>
+
+There's a naming convention for the OSI model called PDUs
+
+[img](/CCNA/Study%20notes/OSI%20Model%20&%20TCP%20&%20IP%20Suite/Pictures/pic1.png)
+
+Data = Layer 7,6,5
+L4 header = 4
+L3 header = 3
+L2 header = 2
+L1 = Physical or radio (wirless) that transfers the data.
