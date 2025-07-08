@@ -68,5 +68,6 @@ There's a naming convention for the OSI model called PDUs
 Data = Layer 7,6,5<br>
 L4 header = L4<br>
 L3 header = L3<br>
-L2 header = L2<br>
-Then it transfers to physical or radio (wirless) that transfers the data on Layer 1 (Physical layer)
+L2 header = L2
+
+Layer 1 PDU = is what know called the "bit" that is being transfered on the wire
