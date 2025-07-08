@@ -1,2 +1,60 @@
 <h1>OSI Model & TCP/IP</h1>
 
+<h2>OSI Model</h2>
+ 
+ 7. Application
+ 6. Presentation
+ 5. Session
+ 4. Transport
+ 3. Network
+ 2. Data Link
+ 1. Physical
+
+ <h2>Application</h2>
+ 
+ The application layer is the closest to the end user such as a web browser like firefox, chrome, etc. Though it's not really the application it self but it's the protocol that the application uses like HTTP or HTTPS. It can also mean other applications on your system that can communicate with other applications.
+ 
+ <h2>Presentation</h2>
+
+ The presentation layer's job is to translate between application and network formats for example:
+ - Encryption of data as it is sent, and decryption of data when it is recieved
+ - Also translates between different application-layer formats (To ensure that the data in the format the recieving host can understand)
+ To summerize, the presentation makes sure that the delivery of data is in a correct format.
+
+ <h2>Session</h2>
+ 
+ The session layer controls the sessions between communicating hosts, it establishes, manages and terminates connections between the local applications (like web browser) and remote applications (like youtube).
+ 
+ <h2>Transport</h2>
+
+ The transport layer segments and reassembles data for communication between end hosts, it breaks large pieces of data into smaller segments which can be more easily sent over the network and are less likely to cause transmission problems if error occurs. Example:
+ - You're downloading something and if the transport fails to send large data you will get a error and you have to redo the whole download again
+ - You're watching a video, while you are watching a video it buffers bits by bits so you can keep on watching, if the transport layer sent it in a large quantity you would get a error and would have to retry watching the video all over again like refreshing the page.
+
+ <h2>Network</h2>
+
+ Provides connectivity between end hosts on different networks outside of LAN.
+ 
+ It provides the logical addressing liek IP addresses.
+ 
+ It provides path selection between source and destination.
+ 
+ Example: a router operates at a layer 3 because it provides connectivity between different networks. 
+ 
+ <h2>Data link</h2>
+ 
+ The data link layer provides a node-to-node connectivity and data transfer (Like, PC to switch, switch to router, router to router)
+ 
+ Defines how data is formatted for transmission over a physical medium (like copper UTP cables)
+
+ Detects and (possibly) corrects physical layer errors
+
+ Uses layer 2 addressing, seperate from layer 3 addressing.
+
+ Example: Switches work at layer 2.
+
+ <h2>Physical</h2>
+
+ Defines physical characteristics of the medium used to transfer data between devices, for example:
+  - Voltage levels, maximum transmission distances, physical connectors, cable specifications, etcþ
+  - Digital bits are converted into electrical (Wired connections) or radio (For wireless connections)
