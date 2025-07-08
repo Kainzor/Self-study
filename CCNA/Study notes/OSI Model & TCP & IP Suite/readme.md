@@ -3,12 +3,12 @@
 <h2>OSI Model</h2>
  
 7 - Application<br>
-6 - Presentation
-5 - Session
-4 - Transport
-3 - Network
-2 - Data Link
-1 - Physical
+6 - Presentation<br>
+5 - Session<br>
+4 - Transport<br>
+3 - Network<br>
+2 - Data Link<br>
+1 - Physical<br>
 
  <h2>Application</h2>
  
