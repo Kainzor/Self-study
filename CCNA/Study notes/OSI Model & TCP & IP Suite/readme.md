@@ -65,8 +65,8 @@ There's a naming convention for the OSI model called PDUs
 
 ![img](/CCNA/Study%20notes/OSI%20Model%20&%20TCP%20&%20IP%20Suite/Pictures/pic1.png)
 
-Data = Layer 7,6,5
-L4 header = 4
-L3 header = 3
-L2 header = 2
-L1 = Physical or radio (wirless) that transfers the data.
+Data = Layer 7,6,5<br>
+L4 header = L4<br>
+L3 header = L3<br>
+L2 header = L2<br>
+Then it transfers to physical or radio (wirless) that transfers the data on Layer 1 (Physical layer)
