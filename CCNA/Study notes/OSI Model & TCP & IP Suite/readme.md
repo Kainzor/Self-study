@@ -2,7 +2,7 @@
 
 <h2>OSI Model</h2>
  
-7 - Application
+7 - Application<br>
 6 - Presentation
 5 - Session
 4 - Transport
