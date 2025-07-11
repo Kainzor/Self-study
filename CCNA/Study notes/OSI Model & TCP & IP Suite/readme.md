@@ -71,3 +71,22 @@ L3 header = L3<br>
 L2 header = L2
 
 Layer 1 PDU = is what know called the "bit" that is being transfered on the wire
+
+
+<h1>TCP/IP</h1>
+
+The TCP/IP has it's own "OSI" model that is being used today, OSI is outdated but people in the IT still think of it as a refrence to the layers.
+
+4 - Application<br>
+3 - Transport<br>
+2 - Internet<br>
+1 - Link <br>
+
+![img](/CCNA/Study%20notes/OSI%20Model%20&%20TCP%20&%20IP%20Suite/Pictures/pic2.png)
+
+As you can see in the picture here, it is the same but shortened up. When people talk about "there's a porblem in the layer 4" people often think of what is in the OSI layer as in the transport and not application.
+
+
+This is a picture from Wiki, it shows the different naming system that is used for the TCP/IP Suite and it's all very different, but for this study we'll be using Cisco for CCNA.
+
+![img](/CCNA/Study%20notes/OSI%20Model%20&%20TCP%20&%20IP%20Suite/Pictures/pic2.png)
