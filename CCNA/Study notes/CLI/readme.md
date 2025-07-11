@@ -9,17 +9,51 @@ Once you connect the computer with a device, you have to connect to the CLI like
  - You turn on putty and change the session connection type into "Serial"
  - It should work fine with default settings
  - you can view and edit the default settings inside putty location "Connection > Serial" if needed. 
+ - Default serial config is: 
+     - Speed (baud): 9600 
+     - Data bits: 8
+     - Stop bits: 1
+     - Parity: None
+     - Flow control: None
 
 ![img](/CCNA/Study%20notes/CLI/Pictures/pic1.png)
 
+<h1>Modes</h1>
 
-<h2></h2>
+When you start a CLI you will start by getting a greet text with configuration dialog.
 
-<h2></h2>
+ <h2>User EXEC mode</h2>
+ 
+A User EXEC mode is known by the EXEC mode sign which is ">"
+ - So basically if you have a host name called "Kain" then it would be "Kain>"
 
-<h2></h2>
+User EXEC mode is very limited
 
-<h2></h2>
+Users can look at some things, but can't make any changes to the configuration.
+
+Also called "User mode"
+
+<h2>Privilaged EXEC Mode</h2>
+
+You go into the Privilaged EXEC mode by typing in "enable" while in the "User mode"
+ - When you do enable you will get a new symbol that is "#" which is the sign for privilaged EXEC mode.
+
+Provides complete access to view the devices configuration, restart the device, etc. 
+
+Cannot change the configuration, but can change the time on the device, save the configuration file, etc.
+ 
+
+<h2>Global Configuration Mode</h2>
+
+To get into Global Configuration Mode, you start by being in Priviliaged EXEC mode and then type "Configure Terminal".
+ - Though you can shorten the command by typing in "config t" since its the only option with the current names.
+
+
+<h2>Enable password</h2>
+
+You can make a password for the Privilaged EXAC Mode, since the command to get into Priviliaged EXAC mode is "enable", you create the password for the command name like so...
+ - router(config)#enable password "password name"
+ - Remember that the passwords are case sensitive
 
 <h2></h2>
 
