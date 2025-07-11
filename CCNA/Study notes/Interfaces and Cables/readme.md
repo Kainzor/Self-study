@@ -108,17 +108,3 @@ There are 2 types of fibre cables
  Here is a chart on Fiber standards:
 
 ![img](/CCNA/Study%20notes/Interfaces%20and%20Cables/Pictures/pic10.png)
-
-
-
-
-
-<h2></h2>
-
-<h2></h2>
-
-<h2></h2>
-
-<h2></h2>
-
-<h2></h2>

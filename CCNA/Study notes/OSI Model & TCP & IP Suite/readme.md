@@ -1,6 +1,6 @@
 <h1>OSI Model & TCP/IP</h1>
 
-<h2>OSI Model</h2>
+<h2>OSI Model (Open systems interconnection)</h2>
  
 7 - Application<br>
 6 - Presentation<br>
@@ -35,7 +35,7 @@
 
  Provides connectivity between end hosts on different networks outside of LAN.
  
- It provides the logical addressing liek IP addresses.
+ It provides the logical addressing like IP addresses.
  
  It provides path selection between source and destination.
  
