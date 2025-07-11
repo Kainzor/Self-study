@@ -10,6 +10,8 @@ Once you connect the computer with a device, you have to connect to the CLI like
  - It should work fine with default settings
  - you can view and edit the default settings inside putty location "Connection > Serial" if needed. 
 
+![img](/CCNA/Study%20notes/CLI/Pictures/pic1.png)
+
 
 <h2></h2>
 
