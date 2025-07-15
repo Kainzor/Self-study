@@ -72,13 +72,73 @@ To save a confuguration you type in:
 <h2>Service password-encryption</h2>
 
 Start by going global terminal which is "Conf t" command. After that you type in "Service password-encryption".
- - Once you type in the command the password will be encrypted
+ - Once you type in the command the password will be encrypted with type 7 password encrypter
 
+Summerize:
+ - If you enable service password-encryption:
+     - Current passwords will be encrypted
+     - Future passowrds will be encrypted
+     - The enable secret password will not be affected
+ 
+ - If you disable service password-encryption:
+     - Current passwords will not be decrypted
+     - Future passwords will not be encrypted
+     - The enable secret password will not be affected
+
+
+The more secured method is by using "Enable secret" command. That way you'll have a much better encryption for your password.
+ - Once enable secret is enabled, it negates the type 7 password  or "service password-encryption" since it's superior.
+ - You have a much better password encryption with "enable secret" and is suggested to always use that.
+
+<h2>Canceling commands</h2>
+
+To cancel a command you use the command "no" in front of another command. Example:
+ - no service password-encryption = future passwords will no longer be encrypted, though if you do happen to already have a type 7 encryption enabled when entering the command, the encryption will still be the same and not in clear text.
+
+<h2>Commands</h2>
+
+Router> = User EXEC mode
+
+Router# = Privilaged EXEC mode
+
+Router(config)# = Global configuration mode
 <h2></h2>
 
-<h2></h2>
+Router>enable
+ - Used to enter Privileged EXEC mode
 
-<h2></h2>
+Router#configure terminal
+ - Used to enter global config mode
+
+Router(config)#enable password *password-name*
+ - Configures a password to protect privileged exec mode
+
+Router(config)#Service password-encryption
+ - Encrypts the enable password (and other passowrds)
+
+Router(config)#enable secret *password-name*
+ - Configures a more secure, always encrypted enabled password (always use)
+
+Router(config)#run privileged-exec-level-command
+ - Executes a privileged-exec level command from global configuration mode
+
+ Router(config)#no *command*
+  - removes the command
+
+Router(config)#show running-config
+ - displays the current, active configuration file
+
+Router(config)#show startup-config
+ - displays the saved config file which will be loaded if the device is restarted
+
+Router(config)#write
+ - saves the current running config file
+
+Router(config)#write memory
+ - does the same as write, just a older command
+
+Router(config)#copy running-config startup-config
+- copies teh running-config file and pastes as a startup-config
 
 <h2></h2>
 
