@@ -55,6 +55,31 @@ You can make a password for the Privilaged EXAC Mode, since the command to get i
  - router(config)#enable password "password name"
  - Remember that the passwords are case sensitive
 
+<h2>Running-config / Startup-config</h2>
+
+There are 2 separate config files kept on the device at once.
+    
+ - Running-config = The current, active configuration file on the device. As you enter commands in the CLI, you edit the active config. 
+ - Startup-config = The config file that will be loaded upon restart of the device.
+
+To view the running-config file, you type in "show running-config"
+
+To save a confuguration you type in:
+ - write = saves the running configuration file
+ - write memory = same as write
+ - copy running-config startup-config = It copies the running-config and saves the file in startup-config
+
+<h2>Service password-encryption</h2>
+
+Start by going global terminal which is "Conf t" command. After that you type in "Service password-encryption".
+ - Once you type in the command the password will be encrypted
+
+<h2></h2>
+
+<h2></h2>
+
+<h2></h2>
+
 <h2></h2>
 
 <h2></h2>
