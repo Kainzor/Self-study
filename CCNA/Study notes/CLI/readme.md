@@ -86,7 +86,7 @@ Summerize:
      - The enable secret password will not be affected
 
 
-The more secured method is by using "Enable secret" command. That way you'll have a much better encryption for your password.
+The more secured method is by using "Enable secret password" command. That way you'll have a much better encryption for your password.
  - Once enable secret is enabled, it negates the type 7 password  or "service password-encryption" since it's superior.
  - You have a much better password encryption with "enable secret" and is suggested to always use that.
 
