@@ -26,3 +26,5 @@ Here I am going to some movement scripting and other things like collecting obje
 ![alt text](image-6.png)
 
 4. Here we start editing it as a collectable object, I scripted so that when you run over it it would destroy the object and create a VFX animation of a particle explosion as a indicator that you were able to collect it.
+![alt text](image-7.png)
+We also added a tag so that only the player is able to collect it, if we didn't add the tag it can be destroyed from any other object that has collided with it.
