@@ -19,3 +19,4 @@ As u see underneath the picture, I created a idle animation that I learned on th
 Now that we created a character with a idle animation, I want to try it out.
 
 And it works!
+![idle](idle.gif)
