@@ -6,7 +6,7 @@ I will be posting a update post here and a seperate section of all my C# code an
 
 But before then, I have to create my own pixel sprites for my game. As I am more of a coder than a art designer, it's gona take me a while to finish the character.
 
-<h1>Day 1: The first player!</h1>
+<h1>Update 1: The first player!</h1>
 
 If I'm going to make a game, the player has to play a character ofcourse, meet a sprite that I drew my self, that took a bit of a while to do!
 ![alt text](image.png)
@@ -42,6 +42,6 @@ And Wollahh!
 
 ![alt text](walkin-idle.gif)
 
-Not quite you were expecting right? I think it's cool seeing my Dark knight moonwalk like that, but no there's work to be done. It's pretty late now so I am going to work on walking animations for my character. I am not going to go very details with art style and putting time on art, but I  will try to make it nice as possible as I can.
+Not quite you were expecting right? I think it's cool seeing my Dark knight moonwalk like that hehe, but there's work to be done. It's pretty late now so I am going to call it for  today, next time I will be focusing on walking animations for my character. I am not going to go very in detail with art style related stuff and put most of my time on art, but I will try to make it as nice as possible.
 
-<h1>Day 2: Polishing my Dark knight!</h1>
+<h1>Update 2: Adding new animations!</h1>
