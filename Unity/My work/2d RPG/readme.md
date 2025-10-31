@@ -21,3 +21,27 @@ Now that we created a character with a idle animation, I want to try it out.
 And it works! (Can't seem to make the Gif repeat on github, will check later)
 
 ![idle](idle.gif)
+
+Now here I am setting up the input actions using the input action editor, apparently there was a older one that is being depricated so I am trying out this new version, it looks simple and I assume that it will be a lot easier to code with.
+
+![alt text](image-1.png)
+
+So I have gone over doing a lot of stuff trying to understand how they interact and understand the coding.
+I begun by doing the settings to create inputs on the input manager
+After that I did some research on coding how to connect them 2 together which is here
+
+![alt text](image-2.png)
+
+They have made it a fairly simplified coding needed from what I have previously seen in the past and I see why this is going to take over the old input manager.
+
+![alt text](image-3.png)
+
+But after that I saved and connected the script to the player object and a new component(new for me) called "Player input". Supposedly supose to be a ease way of connecting the input to the player object. 
+
+And Wollahh!
+
+![alt text](walkin-idle.gif)
+
+Not quite you were expecting right? I think it's cool seeing my Dark knight moonwalk like that, but no there's work to be done. It's pretty late now so I am going to work on walking animations for my character. I am not going to go very details with art style and putting time on art, but I  will try to make it nice as possible as I can.
+
+<h1>Day 2: Polishing my Dark knight!</h1>
