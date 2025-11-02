@@ -116,3 +116,19 @@ Here is the last one, regarding the movement of the physical body,
 ![alt text](image-14.png)
 
 It moves the rigidbody's physical position depending on input, speed etc.
+
+<h2>Creating tiles</h2>
+
+Here I have created very small world, not a lot of tiles around but just want to show my progress on things.
+
+![alt text](image-15.png)
+
+few things to note that I have added regarding collision is the high collision and low
+
+Collision-high: How I set it up is that when you are colliding with another in gameobject, it prioritizes objects over others depending on layer, right now my player character is layers as 6 and the collision high is 10 so it will layer over my character, as you can see on the tree stomp.
+
+![alt text](image-16.png)
+
+Collision-low: It does the same thing but the opposite, this is the ideal way of putting something that is suppose to be behind the character when you're in the front. Collision-low is set on a layer 0 so it will always be behind the character, now you can see that the tree stomp is behind the characters helm and not clipping through.
+
+![alt text](image-17.png)
