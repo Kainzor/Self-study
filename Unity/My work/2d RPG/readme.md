@@ -132,3 +132,25 @@ Collision-high: How I set it up is that when you are colliding with another in g
 Collision-low: It does the same thing but the opposite, this is the ideal way of putting something that is suppose to be behind the character when you're in the front. Collision-low is set on a layer 0 so it will always be behind the character, now you can see that the tree stomp is behind the characters helm and not clipping through.
 
 ![alt text](image-17.png)
+
+<h3>Elevation<h3>
+
+I created elevation with entry and exits when going up a mountain. And once you're up there is a boundry so you can't fall down the mountain, so the only exit is where the entry was.
+
+I used non-collision-low layered entry which is the steps. On top of it is a green box that is a Box Collider with the "Ontrigger" effect
+
+![alt text](image-18.png)
+
+Next I created the entry script
+
+![alt text](image-19.png)
+
+In the script is a onTrigger effect saying once the "player" tag collides into the box collider, mountain collider is turned to false, which means you can walk on top of the mountain and the sorting layer order on the player is turned to 15 (because some of the mountain layer is at 10).
+
+Within the script is also a boundry so you dont fall off. which is saying, once you are up the mountain, the boundry is turned on and a new different collider is blocking you so you can't just walk off the mountain. Here is a picture of the boundry colliders which is the orange lines
+
+![alt text](image-20.png)
+
+Then we have the same script for exit but it's just tweaked up a bit, layers changed back to normal and the mountain enable and boundries are disabled.
+
+![alt text](image-21.png)
