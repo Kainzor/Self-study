@@ -2,7 +2,7 @@
 
 Here I am working on a EVE inspired 3D game project, there's a lot more complexity with 3d controls after coming from 2d game so there's a lot to learn. I am excited to try out this project and hopefully able to make it work and build up the game. I will update as often as I can when I get some progress.
 
-<b>Current Goal:</b>
+<b>----- Current Goal -----</b>
 <br>
 <br>-> Create Input controller (Trying to learn how to connect the new input controller system on unity w/ mouse control view)
 <br>Add Asteroids
@@ -12,7 +12,7 @@ Here I am working on a EVE inspired 3D game project, there's a lot more complexi
 
 
 
-<b>Last goal:</b>
+<b>----- Last goal -----</b>
 <br>
 <br>Add a skybox
 <br>Create particles (star dusts) for ship when moving
