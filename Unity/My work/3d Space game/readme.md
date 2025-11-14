@@ -5,18 +5,18 @@ Here I am working on a EVE inspired 3D game project, there's a lot more complexi
 Current Goal:
 
 -> Create Input controller (Trying to learn how to connect the new input controller system on unity w/ mouse control view)
-Add Asteroids
-Create a inventory
-Create mining lasers and add minerals in inventory
-Create enemy NPC's
+<br>Add Asteroids
+<br>Create a inventory
+<br>Create mining lasers and add minerals in inventory
+<br>Create enemy NPC's
 
 
 
 Last goal:
-Add a skybox
-Create particles (star dusts) for ship when moving
-Create a ship controller script (Adding pitch force, thrust, roll etc...)
-Add a ship
+<br>Add a skybox
+<br>Create particles (star dusts) for ship when moving
+<br>Create a ship controller script (Adding pitch force, thrust, roll etc...)
+<br>Add a ship
 
 
 
