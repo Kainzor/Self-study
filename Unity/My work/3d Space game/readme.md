@@ -4,16 +4,16 @@ Here I am working on a EVE inspired 3D game project, there's a lot more complexi
 
 <b>----- Current Goal -----</b>
 <br>
-<br>-> Create Input controller (Trying to learn how to connect the new input controller system on unity w/ mouse control view)
-<br>Add Asteroids
+<br>-> Add Asteroids
 <br>Create a inventory
-<br>Create mining lasers and add minerals in inventory
+<br>Create mining lasers, animation and add minerals in inventory
 <br>Create enemy NPC's
 
 
 
 <b>----- Last goal -----</b>
 <br>
+<br>Create Input controller (Trying to learn how to connect the new input controller system on unity w/ mouse control view)
 <br>Add a skybox
 <br>Create particles (star dusts) for ship when moving
 <br>Create a ship controller script (Adding pitch force, thrust, roll etc...)
@@ -81,3 +81,15 @@ After all that I added particles to be able to see if you're actually moving, ha
 ![alt text](image-8.png)
 
 Can't see it on the screen because it's stationary but trust me it's there haha.
+
+<h2>Update 2</h2>
+
+We can fly!
+
+![alt text](letfly.gif)
+
+After many hours of trying to make it work, I finally found a way. 
+
+Who would've known that one sneaky input control scheme could stop the whole thing from working. I had gone over so many different tutorials trying to understand why mine wasn't working and it turned out it was because of a control scheme that newbie me added a long while back since it was a global project controller scheme.
+
+
