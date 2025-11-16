@@ -92,4 +92,6 @@ After many hours of trying to make it work, I finally found a way.
 
 Who would've known that one sneaky input control scheme could stop the whole thing from working. I had gone over so many different tutorials trying to understand why mine wasn't working and it turned out it was because of a control scheme that newbie me added a long while back since it was a global project controller scheme.
 
+I don't have much more time on my hands atm but I will update this update here with the script that was created for the input controller
+
 
