@@ -86,7 +86,7 @@ Can't see it on the screen because it's stationary but trust me it's there haha.
 
 We can fly!
 
-![alt text](letfly.gif)
+<video controls src="20251116-1746-46.0947881.mp4" title="Title"></video>
 
 After many hours of trying to make it work, I finally found a way. 
 
