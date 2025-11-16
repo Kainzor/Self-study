@@ -84,9 +84,9 @@ Can't see it on the screen because it's stationary but trust me it's there haha.
 
 <h2>Update 2</h2>
 
-We can fly!
+We can fly! (Gif quality is bad sorry)
 
-<video controls src="20251116-1746-46.0947881.mp4" title="Title"></video>
+![alt text](<Untitled video - Made with Clipchamp.gif>)
 
 After many hours of trying to make it work, I finally found a way. 
 
