@@ -94,4 +94,47 @@ Who would've known that one sneaky input control scheme could stop the whole thi
 
 I don't have much more time on my hands atm but I will update this update here with the script that was created for the input controller
 
+<h2>Update 3</h2>
+
+I've added a asteroid gameobject that I used a free asset from the asset store.
+
+![alt text](image-9.png)
+
+Few things I added a long the way. I created a Asteroid tag for it because of maybe future idea, but I also added a "Enemy" layer to it because I had a new idea that I want to add a lock on system, since it's a EVE inspired I wanna try to make a similar system to that.
+
+Not many tutorials how to make a Lock On system like EVE so I will have to do it blind with possible AI help and adjust to my liking. As much as I want to avoid using AI in projects for coding, I know that AI is going to become the best way for productivity and it will get better over time. As long as I can read and know what the code is doing and fix on AI's error it's actually a really good tool.
+
+So if there is a case where I get AI's help I will do everything I can do explain in details what it does to show that I know what it's doing.
+
+<h2>The target input</h2>
+
+![alt text](image-11.png)
+
+![alt text](image-10.png)
+
+GetComponent is a way to get other "Components" inside different scripts.
+
+![alt text](image-12.png)
+
+if playerControls doesn't refer to anything, then create a new playerControl instance.
+
+![alt text](image-13.png)
+
+Here we are calling the refrence within the playerControl input action file saying if the button is pushed then it turns on and locks on.
+
+![alt text](image-15.png)
+
+Here's the opposite of it and cancel the targets lock on.
+
+![alt text](image-16.png)
+
+here's the function for the OnLockOn, So when the input action or the target button is pressed, it will scan for a target. atm I added a "LockNextTarget" whenever you have 2 targets then you can switch by pressing the target button again but I want to use tab to do it. For now I am not focusing on small things and want to work more on adding more major stuff in the game..
+
+in the Else if section is basically sayingif there's no targets available then unlocktarget or cancel (not working yet properly)
+
+I've added this debug option that helped me detect or see if the script was actually working. It shows in console saying if it found a target and with .count it tells how many targets are within target range (which will be explained in the next section)
+
+Now for the actual target system.
+
+<h2>Target System</h2>
 
