@@ -106,7 +106,7 @@ Not many tutorials how to make a Lock On system like EVE so I will have to do it
 
 So if there is a case where I get AI's help I will do everything I can do explain in details what it does to show that I know what it's doing.
 
-<h2>The target input</h2>
+<h2>Target input script</h2>
 
 ![alt text](image-11.png)
 
@@ -130,11 +130,11 @@ Here's the opposite of it and cancel the targets lock on.
 
 here's the function for the OnLockOn, So when the input action or the target button is pressed, it will scan for a target. atm I added a "LockNextTarget" whenever you have 2 targets then you can switch by pressing the target button again but I want to use tab to do it. For now I am not focusing on small things and want to work more on adding more major stuff in the game..
 
-in the Else if section is basically sayingif there's no targets available then unlocktarget or cancel (not working yet properly)
+in the Else if section is basically saying if there's no targets available then unlocktarget or cancel (not working yet properly)
 
-I've added this debug option that helped me detect or see if the script was actually working. It shows in console saying if it found a target and with .count it tells how many targets are within target range (which will be explained in the next section)
+I've added the debug option that helped me detect or see if the script was actually working. It shows in console saying if it found a target and with .count it tells how many targets are within target range (which will be explained in the next section)
 
 Now for the actual target system.
 
-<h2>Target System</h2>
+<h2>Target System Script</h2>
 
