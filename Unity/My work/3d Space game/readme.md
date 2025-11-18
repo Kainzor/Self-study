@@ -4,7 +4,7 @@ Here I am working on a EVE inspired 3D game project, there's a lot more complexi
 
 <b>----- Current Goal -----</b>
 <br>
-<br>-> Add Asteroids
+<br>-> Add a Lock on system
 <br>Create a inventory
 <br>Create mining lasers, animation and add minerals in inventory
 <br>Create enemy NPC's
@@ -13,6 +13,7 @@ Here I am working on a EVE inspired 3D game project, there's a lot more complexi
 
 <b>----- Last goal -----</b>
 <br>
+<br>Add a Asteroid
 <br>Create Input controller (Trying to learn how to connect the new input controller system on unity w/ mouse control view)
 <br>Add a skybox
 <br>Create particles (star dusts) for ship when moving
